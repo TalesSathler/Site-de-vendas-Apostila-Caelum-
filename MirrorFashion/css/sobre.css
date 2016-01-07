@@ -1,0 +1,118 @@
+
+
+figcaption{
+	font-style: italic;
+	margin-top: 10px;
+	text-align:center;
+}
+
+p {
+	padding: 0 45px;
+	color: black;
+/*	background-color: red;*/
+	text-indent: 30px;/*dar um espaçamento na primeira linha do parágrafo*/
+}
+
+#mirror{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+h2{
+	margin-top: 30px;
+	border-bottom: 2px solid #333333;
+	text-indent: 30px;
+}
+
+h3{
+	border-bottom: 2px solid #333333;
+	text-indent: 30px;
+}
+
+
+
+#centro-distribuicao{
+	background-color: #CCC;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;/*borda*/
+	padding: 10px 10px;;/*distancia do corpo borda 10 = cima e embaixo && 20 = direita e esquerda*/
+}
+
+
+#fa{
+	background-color: #ccc;
+	margin-left: 4px;
+	text-align:right;
+	float: right;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;/*borda*/
+	padding: 10px 10px;;/*distancia do corpo borda 10 = cima e embaixo && 20 = direita e esquerda*/
+}
+
+/*INICIO DO RODAPÉ*/
+#rodape {
+	background-color: black;
+	text-align: left;
+	color: #777;
+	margin: 10px 0;
+	padding-top: 20px;
+	padding: 30px 0;
+}
+/*
+#logo{
+	margin-left: 50px;
+	margin-right: 20px;
+	padding-bottom: 1px;
+}
+
+#face{
+	margin-left: 790px;
+	margin-right: 10px;
+	padding-bottom: 1px;
+}
+
+#plus{
+	margin-left: 10px;
+	margin-right: 50px;
+	padding-bottom: 1px;
+}*/
+
+#rodape p{
+	color: white;
+	padding-left: 15px;
+	padding-top: 1px;
+}
+/*FIM DO RODAPÉ*/
+
+
+/*INICIO DO CABEÇALHO*/
+#logo-topo{
+	float: left;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.mensagem{
+	text-align: right;
+}
+
+.sacola-vazia{
+	text-align: right;
+	font-size: 14px;
+	padding-right: 35px;
+	background: url(../img/sacola.png) no-repeat top right;
+}
+
+
+
+.menu-opcoes ul li{
+	margin-right: 5px;
+	display: inline;
+}
+/*FIM DO CABEÇALHO*/

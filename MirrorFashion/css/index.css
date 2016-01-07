@@ -1,0 +1,143 @@
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: white !important;
+}
+/*
+header{
+	background-color: #031634  !important;
+}*/
+
+/* Adjust feedback icon position */
+#movieForm .form-control-feedback {
+    right: 15px;
+}
+#movieForm .selectContainer .form-control-feedback {
+    right: 25px;
+}
+
+
+/*INICIO DO RODAPÉ*******************/
+footer  {
+	background-color: #031634;
+	color: #777;
+	padding: 30px 0;
+
+}
+
+/*INICIO CABECALHO*/
+
+.btn-group.col-md-8 {
+    margin-top: 10px;
+}
+
+.navbar-form.navbar-left {
+    margin-left: 74px;
+}
+
+/*FIM CABECALHO*/
+
+/*
+#logo{
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+#face{
+	margin-left: 570px;
+	margin-right: 10px;
+}
+
+#plus{
+	margin-left: 10px;
+	margin-right: 50px;
+}*/
+/*FIM DO RODAPÉ*/
+
+
+/*INICIO DO CABEÇALHO***************/
+#logo-topo{
+	float: left;
+	margin-left: auto;
+	margin-right: 1px;
+	padding-bottom: 5px;
+}
+
+.mensagem{
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+.sacola-vazia{
+	text-align: right;
+	font-size: 14px;
+	padding-right: 35px;
+	background: url(../img/sacola.png) no-repeat top right;
+}
+
+.menu-opcoes ul{
+	font-size: 15px;
+}
+
+.menu-opcoes a{
+	color: #003366;
+}
+
+.menu-cabecalho {
+	// código de um menu no cabeç alho
+	// essas regras TAMBÉM serão aplicadas ao nav
+}
+
+.menu-opcoes ul li{
+	margin-right: 5px;
+	display: inline;
+}
+/*FIM DO CABEÇALHO*/
+
+
+/*INICIO BUSCA e Departamentos***************/
+.busca, .menu-departamento{
+	float: left;
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 20px;
+	width: 230px;
+}
+
+
+.busca h2, busca form, .menu-departamento h2{
+	margin: 10px;
+}
+
+.menu-departamento{
+	clear: left;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.destaque{
+	margin-top: 10px;
+}
+
+.menu-departamento li{
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+	display: block;	
+}
+
+.menu-departamento a{
+	color: #333333;
+	text-decoration: none;
+}
+
+.busca input {
+	vertical‐align: middle;
+}
+
+.busca input[ type=search] {
+	width: 170px;
+}
+/*Fim BUSCA e Departamentos*/
+
+
